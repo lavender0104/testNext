@@ -3,5 +3,5 @@ export default (req, res) => {
   //const { total_price, currency } = req; 
   //console.log(currency, total_price);
   //console.log(req.query, req.body);
-  console.log(req.query);
+  console.log(req.body);
 };

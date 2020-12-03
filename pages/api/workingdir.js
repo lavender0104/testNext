@@ -1,5 +1,4 @@
 export default (req, res) => {
-  res.statusCode = 200;
+  res.status(200).json({ name: "next.js" });
   console.log(req);
-  return res.statusCode;
 };

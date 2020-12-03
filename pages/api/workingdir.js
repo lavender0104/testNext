@@ -1,4 +1,5 @@
 export default (req, res) => {
   res.status(200).json({ name: "next.js" });
-  console.log(req.body);
+  const { product_id, id, title } = req.body;
+  console.log(product_id, id, title);
 };

@@ -1,4 +1,5 @@
 export default (req, res) => {
   res.status(200).json({ name: "next.js" });
-  console.log(JSON.parse(req));
+  const afterParse = JSON.parse(req);
+  console.log(afterParse);
 };

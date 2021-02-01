@@ -3,4 +3,5 @@ export default (req, res) => {
   //const { product_id, id, title } = req.body;
   //console.log(product_id, id, title);
   console.log(req);
+  console.log("testing IFTTT");
 };
